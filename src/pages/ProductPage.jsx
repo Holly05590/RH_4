@@ -61,7 +61,6 @@ function ProductPage(){
   const handleOpenDelProductModal = (product) => {
     setTempProduct(product);
     setIsDelProductModalOpen(true);
-    console.log(isDelProductModalOpen,setIsDelProductModalOpen)
   };
 
   const [tempProduct, setTempProduct] = useState(defaultModalState);

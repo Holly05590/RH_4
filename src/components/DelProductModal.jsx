@@ -5,10 +5,10 @@ import { Modal } from 'bootstrap';
 const BASE_URL = import.meta.env.VITE_BASE_URL;
 const API_PATH = import.meta.env.VITE_API_PATH;
 function DelProductModal(
-    tempProduct,
+   {tempProduct,
     getProducts,
     isDelProductModalOpen,
-    setIsDelProductModalOpen
+    setIsDelProductModalOpen}
 
 ){
     
